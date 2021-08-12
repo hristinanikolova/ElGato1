@@ -1,0 +1,164 @@
+body{
+    overflow-x:hidden;
+}
+
+/*Title*/
+.title-container{
+padding: 2% 12% ;
+
+}
+
+#title {
+    background-image: url("../images/grey.jpg");
+    background-size: cover;
+  
+
+}
+
+.title-img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.title-content{
+    padding: 16% 0 ;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5rem;
+    line-height: 1.2;
+    color: #41444B;
+    text-align: center;
+    
+}
+
+.myButton {
+    display: block;
+
+	background-color:#fddc3a;
+	border-radius:6px;
+	color:#52575d;
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	padding:6px 12px;
+    margin: 10% auto;
+    
+
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Products*/
+h2{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4% ;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #7A7A7A;
+    
+}
+.album{
+    
+    padding: 0;
+}
+.album-row{
+    padding:0 6rem;
+}
+.card{
+   
+    width: 20rem;
+    margin:0 auto;
+}
+
+.card-text{
+    font-size:26px;
+    font-family: 'Roboto', sans-serif;
+    color:#52575d;
+    margin: auto;
+    text-align: center;
+
+}
+
+/*About us*/
+.container-colored{
+    background-color:#F6F4E6 ;
+}
+
+.about-content{
+    padding: 2rem  0  2rem 12rem;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4% ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #41444B;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4% ;
+    
+    font-size: 1rem;
+    line-height: 2;
+    color:#52575d;
+}
+
+/*Advantages*/
+.advantages{
+   
+    color: #FDDB3A;
+}
+.advantages-col{
+    padding:0  3rem;
+}
+
+/*Galery*/
+.carousel-item{
+    padding: 0 10rem;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    margin: 0 10rem;
+    
+
+}
+
+/*Contacts*/
+.container-contacts{
+    padding: 3rem 10rem;
+
+}
+.col-contacts-info{
+    padding:0 1rem;
+    text-align: left;
+}
+.i-contacts{
+    margin-right: 1rem;
+}
+.contacts-text{
+  
+   padding: 0;
+    color:#41444B;
+}
+
+.col-contacts-img{
+    width: 100%;
+
+}
+
+/*Footer*/
+footer{
+    background-color:#F6F4E6 ;
+    padding: 3rem;
+    
+}
+
+
